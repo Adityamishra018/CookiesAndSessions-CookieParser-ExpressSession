@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "DevStart-Cookie": "nodemon cookie.js",
-    "DevStart-Session": "nodemon session.js"
+    "DevStart-Session": "nodemon session.js",
+    "DevStart-basic": "nodemon basicAuth.js",
+    "DevStart-jwt": "nodemon jwtCookie.js"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +18,7 @@
     "cookie-parser": "^1.4.6",
     "express": "^4.18.2",
     "express-session": "^1.17.3",
+    "jsonwebtoken": "^9.0.2",
     "session": "^0.1.0"
   },
   "devDependencies": {
