@@ -9,4 +9,5 @@ The scripts implement and serve as a reference for common authentication techniq
 1. HTTP Basic authentication
 2. Cookie based authentication
 3. Session based authentication (abstraction over cookies)
+4. JWT with cookies
 
